@@ -1,0 +1,42 @@
+.options {
+    background-color: $light-gery;
+    width: 100%;
+    height: auto;
+    border: 1px solid #eeeeee;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.options__header {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dddddd;
+}
+
+.options__header__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $light-green;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0;
+    padding-top: 3px;
+    text-transform: uppercase;
+}
+
+.options__header__remove {
+    background-color: $light-green;
+    color: $white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-bottom: 4px solid darken($light-green, 6%);
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-align: right;
+    float: right;
+    vertical-align: top;
+    margin-top: -5px;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,22 @@
+.addoption {
+    background-color: $light-gery;
+    width: 100%;
+    height: auto;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+}
+
+.addoption__input {
+    width: 100%;
+    height: 52px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.addoption__input__error {
+    width: 100%;
+    height: 52px;
+    border: 1px solid red;
+    border-radius: 2px;
+    outline: none;
+}
